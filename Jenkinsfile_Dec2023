@@ -6,7 +6,7 @@ node{
   stage('2.mavenBuild'){
     sh "${mavenHome}/bin/mvn package"
   }
-  /*
+
   stage('3.codeQualityAnalysis'){
     sh "${mavenHome}/bin/mvn sonar:sonar"    
   }
@@ -43,5 +43,5 @@ Regards,
 Landmark Technologies''', recipientProviders: [developers(), upstreamDevelopers(), buildUser()], subject: 'job status', to: 'mylandmarktech@gmail.com'
 
   }
-*/
+
 }
