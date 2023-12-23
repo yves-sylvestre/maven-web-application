@@ -6,7 +6,7 @@ node{
   stage('2.mavenBuild'){
     sh "${mavenHome}/bin/mvn package"
   }
-
+/*
   stage('3.codeQualityAnalysis'){
     sh "${mavenHome}/bin/mvn sonar:sonar"    
   }
@@ -30,6 +30,7 @@ node{
     deploy adapters: [tomcat9(credentialsId: 'tomcat-credentials', path: '', url: 'http://3.144.85.2:8088/')], contextPath: null, war: 'target/*war'
  
   }
+*/
     stage('8.apm'){
     sh "echo 'monitoring and observation and alerting' "
     sh "echo 'application performance Monitoring in progress' "
