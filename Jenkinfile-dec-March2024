@@ -20,6 +20,7 @@ pipeline{
       }
 
     }
+/*
     stage('3.CodeQuality'){
       steps{
          //sh "mvn sonar:sonar"
@@ -91,5 +92,5 @@ Tel: +1 437 215 2483
 
       }
    } 
-
+/*
 }
