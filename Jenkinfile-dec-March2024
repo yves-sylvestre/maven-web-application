@@ -18,9 +18,9 @@ pipeline{
        sh "echo UnitTesting must passed for artifacts to be created"
        sh "mvn clean package"
       }
-
+}
     }
-*/
+/*
     stage('3.CodeQuality'){
       steps{
          //sh "mvn sonar:sonar"
