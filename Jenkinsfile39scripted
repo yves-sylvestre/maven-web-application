@@ -11,7 +11,7 @@ node{
 		sh "${mavenHome}/bin/mvn sonar:sonar"
 	}
 	stage('4uploads2Nexus'){
-		sh "${mavenHome}/bin/mvn deploy"
+		//sh "${mavenHome}/bin/mvn deploy"
 	}
 	stage('5deploy2UAT'){
 		//deploy to container
