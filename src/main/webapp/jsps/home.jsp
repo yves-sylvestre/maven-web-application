@@ -10,13 +10,13 @@
 </head>
 <body>
 <h1 align="center">Welcome to Tesla Web application Project.</h1>
-<h1 align="center">Landmark Software Solutions (LSS)  are developing and supporting quality Software Solutions to millions of clients globally.
-	           We are raising billionaires IT professionals accross the nations of the World.
+<h1 align="center">Landmark Software Solutions (LSS)  is developing and supporting quality Software Solutions to millions of clients globally.
+	           We are raising billionaire IT professionals across the nations of the World.
 	Landmark Software Solutions (LSS) offers Training for DevOps with Linux, Kubernetes and Cloud, equipping IT Engineers for best performance.
         Landmark Technologies, the Pride of Africa.
 	Class39 DevOps MasterClass started on Feb 8, 2025.
-        Class30 DevOps MasterClass will start on June 8, 2025.
-        Please invite all your contacts and friends for this life changing course.
+        Class40 DevOps MasterClass will start on June 8, 2025.
+        Please invite all your contacts and friends to this life-changing course.
 </h1>
 <hr>
 <br>
