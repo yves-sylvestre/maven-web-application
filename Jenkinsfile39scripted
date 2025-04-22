@@ -1,13 +1,3 @@
-//## scripted jenkisfile 
-//## repo = https://github.com/LandmakTechnology/maven-web-application
-// single line comment in groovy 
-// multi- line comment in groovy 
-/*  
-## scripted jenkisfile 
-## repo = https://github.com/LandmakTechnology/maven-web-application
-single line comment in groovy = // 
-multi- line comment in groovy = /*  */
-*/
 node{
 	def mavenHome = tool name: 'maven399'
 	stage('1clone'){
