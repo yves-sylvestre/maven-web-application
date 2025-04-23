@@ -7,6 +7,7 @@ node{
 		sh "${mavenHome}/bin/mvn clean package"   //linux OS
 		//bat "mvn clean package"  //windows OS
 	}
+/*
 	stage('3codeQualityAnalysis'){
 		sh "${mavenHome}/bin/mvn sonar:sonar"
 	}
@@ -36,4 +37,5 @@ Application deployed.
 Regards
 Landmark Technologies ''', recipientProviders: [contributor(), developers()], subject: 'deployment status', to: 'mylandmarktech@gmail.com'
 	}
+*/
 }
