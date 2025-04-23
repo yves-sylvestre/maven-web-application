@@ -21,8 +21,9 @@ pipeline{
               sh "echo 'testing must passed to create artifacts ' "
               sh "mvn clean package" 				
 			}
+*/
 		}
-	/*	
+		
 		stage('3CodeQuality'){
 			steps{
               sh "echo 'Perfoming CodeQualityAnalysis' "
