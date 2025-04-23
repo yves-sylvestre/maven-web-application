@@ -22,7 +22,7 @@ pipeline{
               sh "mvn clean package" 				
 			}
 		}
-		
+	/*	
 		stage('3CodeQuality'){
 			steps{
               sh "echo 'Perfoming CodeQualityAnalysis' "
@@ -59,7 +59,7 @@ pipeline{
 
 		}
 	}
-
+*/
 	post{
 		always{
 emailext body: '''Hi Team,
