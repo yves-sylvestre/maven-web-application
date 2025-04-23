@@ -1,5 +1,3 @@
-//declarative Jenkinsfile
-// java projects  
 pipeline{
 	agent any 
 	tools {
@@ -21,7 +19,6 @@ pipeline{
               sh "echo 'testing must passed to create artifacts ' "
               sh "mvn clean package" 				
 			}
-/*
 		}
 		
 		stage('3CodeQuality'){
@@ -60,7 +57,7 @@ pipeline{
 
 		}
 	}
-*/
+
 	post{
 		always{
 emailext body: '''Hi Team,
@@ -88,3 +85,4 @@ Landmark TRechnologies''', recipientProviders: [developers(), upstreamDevelopers
 		}
 	} 
 }
+    
