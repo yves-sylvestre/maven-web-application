@@ -112,7 +112,7 @@
     <finalName>tesla</finalName>
 
     <plugins>
-        <!-- ✅ Compiler plugin for Java 17 -->
+    
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
@@ -123,7 +123,6 @@
             </configuration>
         </plugin>
 
-        <!-- ✅ Updated WAR plugin -->
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
@@ -133,7 +132,6 @@
             </configuration>
         </plugin>
 
-        <!-- ⚠️ Jetty plugin is VERY old → update -->
         <plugin>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-maven-plugin</artifactId>
@@ -146,7 +144,6 @@
             </configuration>
         </plugin>
 
-        <!-- Eclipse plugin (optional, can remove if not using Eclipse IDE) -->
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-eclipse-plugin</artifactId>
